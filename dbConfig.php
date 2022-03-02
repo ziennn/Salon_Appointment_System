@@ -60,14 +60,14 @@
             $mail->isSMTP();                                          
             $mail->Host         = 'smtp.gmail.com';                     
             $mail->SMTPAuth     = true;                                   
-            $mail->Username     = 'rhosehairsalon@gmail.com';                     //jhuncarlomacdon
-            $mail->Password     = 'rhosesalon2022';                           //wainasdztyhtramm
+            $mail->Username     = 'rhosehairsalon@gmail.com';                     
+            $mail->Password     = 'rhosesalon2022';                           
             $mail->SMTPSecure   = PHPMailer::ENCRYPTION_SMTPS;           
             $mail->Port         = 465;
         
         
             // RECIEPENTS
-            $mail->setFrom('rhosehairsalon@gmail.com', 'RHOSE SALON');//jhuncarlomacdon@gmail.com
+            $mail->setFrom('rhosehairsalon@gmail.com', 'RHOSE SALON');
         
         
             $mail->addAddress($_email);     //Add a recipient
@@ -169,14 +169,14 @@
             $mail->isSMTP();                                          
             $mail->Host         = 'smtp.gmail.com';                     
             $mail->SMTPAuth     = true;                                   
-            $mail->Username     = 'rhosehairsalon@gmail.com';                     //jhuncarlomacdon
-            $mail->Password     = 'rhosesalon2022';                           //wainasdztyhtramm
+            $mail->Username     = 'rhosehairsalon@gmail.com';                     
+            $mail->Password     = 'rhosesalon2022';                           
             $mail->SMTPSecure   = PHPMailer::ENCRYPTION_SMTPS;           
             $mail->Port         = 465;
         
         
             // RECIEPENTS
-            $mail->setFrom('rhosehairsalon@gmail.com', 'RHOSE SALON');//jhuncarlomacdon@gmail.com
+            $mail->setFrom('rhosehairsalon@gmail.com', 'RHOSE SALON');
         
         
             $mail->addAddress($rs_email);     //Add a recipient
